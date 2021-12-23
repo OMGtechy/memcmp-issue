@@ -5,4 +5,4 @@ ARG VARIANT="buster"
 FROM mcr.microsoft.com/vscode/devcontainers/rust:0-${VARIANT}
 
 RUN apt update && export DEBIAN_FRONTEND=noninteractive \
-    && apt install -y cmake g++ clang
+    && apt install -y cmake g++ clang && cargo install cargo-asm
