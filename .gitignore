@@ -1,2 +1,12 @@
 /target
 Cargo.lock
+build
+
+# rename them to reflect your platform if you want to submit them
+rustc.txt
+gpp.txt
+clangpp.txt
+equality.asm
+manual.asm
+clangpp-version.txt
+gpp-version.txt
