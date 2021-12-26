@@ -19,7 +19,7 @@ clangpp: googlebenchmark
 cpp: gpp clangpp
 
 rust:
-	cargo bench
+	cargo bench > bench.txt
 	cargo asm memcmp_issue::naive_search_equality --no-color > equality.asm
 	cargo asm memcmp_issue::naive_search_manual --no-color > manual.asm
 	rustc --version --verbose > rustc.txt
