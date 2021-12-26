@@ -1,0 +1,4 @@
+Debian clang version 11.0.1-2
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
